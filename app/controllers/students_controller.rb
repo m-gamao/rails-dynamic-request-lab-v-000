@@ -14,7 +14,7 @@ class StudentsController < ApplicationController
       @student = Student.find(params[:id])
     end
     
-  get "/" do
+  get "/students/1" do
   	erb :index
   end
 end
